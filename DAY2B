@@ -1,0 +1,15 @@
+career_opts = ["Engineer","sports person","doctor"]
+career_question = ["Do you Love stem courses subjects", "Do you love sports", "Do you love medicine","Do you love sports"]
+career_advice = ["Loves STEM become engineer","loves sport become sportsperson","loves caring for the sick become a doctor"]
+print("if your answer is YES")
+for i in career_question:
+    print(f"Press {i}")
+career_input= input (" Enter your response")
+if career_input =="0":
+    print(f"{career_advice [0]}")
+elif career_input =="1":
+    print(f"{career_advice [1]}")
+elif career_input =="2":
+    print(f"{career_advice [2]}")
+else:
+    print("error no option chosen")
